@@ -9,8 +9,8 @@ app.get("/", function(req,res)
   //res.send("Welcome to RestAPI from nodeJS")
 })
 
-
+const host = '0.0.0.0';
 let port = process.env.port || 3000;
 //const port = 3000;
 
-app.listen(port, () => console.log("Server has started successfully!!"));
+app.listen(port,host, () => console.log("Server has started successfully!!"));
