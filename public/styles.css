@@ -6,13 +6,6 @@ body {
   background: conic-gradient(from 0.5turn at center left, lime, cyan);
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   width: 95%;
   height: 100vh;
