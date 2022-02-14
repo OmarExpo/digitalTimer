@@ -5,6 +5,7 @@ app.use(express.static("public/"))
 
 app.get("/", (req,res) => {
   //res.sendFile(__dirname + "/public/html/index.html");
+  res.send("<h1>Welcome to RestAPI from nodeJS</h1>")
 })
 
 
