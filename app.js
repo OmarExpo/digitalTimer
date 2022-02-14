@@ -1,17 +1,14 @@
-import express from "express";
+const express = require("express");
 const app = express()
 
-app.use(express.static("public"))
+app.use(express.static("public/"))
 
 app.get("/", (req,res) => {
-
+  //res.sendFile(__dirname + "/public/html/index.html");
 })
 
 
-let port = process.env.port;
-if(port == null || port == ''){
-  port = 3000;
-}
+const port = process.env.port || 3000;
 
 
 app.listen(port, () => console.log("Server has started successfully!!"));
