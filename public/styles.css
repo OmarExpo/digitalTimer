@@ -6,7 +6,8 @@ body {
   background: conic-gradient(from 0.5turn at center left, lime, cyan);
 }
 
-.container {
+.container,
+main {
   width: 95%;
   height: 100vh;
   margin: auto;
