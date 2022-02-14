@@ -34,6 +34,27 @@ body {
   font-size: 5rem;
 }
 
+/*
+  @media (max-width: 768px) {
+  #bar1,
+  #bar2 {
+    display: none;
+  }
 
+  .digitalClock {
+    text-align: center;
+    width: 100%;
+  }
 
+  .digitalClock h1 {
+    display: block;
+  }
+}
 
+@media (max-width: 480px) {
+  .digitalClock h1 {
+    font-size: 4rem;
+  }
+}
+
+*/
