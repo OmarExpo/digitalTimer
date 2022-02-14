@@ -1,15 +1,15 @@
 window.addEventListener("load", calculateTime)
 
 function calculateTime() {
-  var date = new Date();
-  var monthNumber = date.getMonth();
-  var dayNumber = date.getDay();
-  var day = date.getDate();
-  var hour = date.getHours();
-  var minute = date.getMinutes();
-  var ampm = hour >= 12 ? 'PM' : "AM";
-  var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  var monthNames = ["Jun", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "dec"]
+  let date = new Date();
+  let monthNumber = date.getMonth();
+  let dayNumber = date.getDay();
+  let day = date.getDate();
+  let hour = date.getHours();
+  let minute = date.getMinutes();
+  let ampm = hour >= 12 ? 'PM' : "AM";
+  let dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let monthNames = ["Jun", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "dec"]
 
   day = day < 10 ? "0" + day : day;
   hour = hour % 12;
