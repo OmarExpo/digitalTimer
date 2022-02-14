@@ -3,9 +3,9 @@ const app = express()
 
 app.use(express.static("./public"))
 
-app.get("*", (req,res) => {
-  res.sendFile(__dirname + "/public/index.html");
-  //res.send("<h1>Welcome to RestAPI from nodeJS</h1>")
+app.get("/", (req,res) => {
+  //res.sendFile(__dirname + "/public/index.html");
+  //res.send("Welcome to RestAPI from nodeJS")
 })
 
 
